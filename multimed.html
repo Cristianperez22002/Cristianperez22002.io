@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multimedia</title>
+  </head>
+  <body>
+    <h1>Multimedia</h1>
+
+    <div id="Video">
+      <audio src="/assets/media/oso.mp4" controls> 
+
+        <p>
+            Tu navegador no soporta la etiqueta del video
+
+         <br>
+         <a href="/assets/media/NoTeOlvidesDePonerElWhereEnElDeleteFrom">Escuchar el audio</a>    
+        <br />
+        o tambien puedes escucharla en Youtube:
+        <a href="https://www.youtube.com/watch?v=i_cVJgIz_Cs">No te olvides de poner el Where en el Delete From. (Una canción pra programadores) </a>
+        </p>
+        </audio>
+        <div></div>
+
+        <div id="object">
+            <h2>Object</h2>
+            <h3>Video</h3>
+            <object data="assets/media/oso.mp4" type="video/mp4"></object>
+
+            <br>
+
+            <h3>Archivos externos (por ejemplo PDF)</h3>
+            <object data="https://gutl.jovenclub.cu/wp-content/uploads/2013/10/El+gran+libro+de+HTML5+CSS3+y+Javascrip.pdf" type="application/pdf" width="300" height="450">
+                
+            </object>
+            
+        </div>
+
+        <h3>Error de compatibilidad</h3>
+        <object data="BeethovenElisa.mid" type="audio/midi">
+            <em>¡Atención!</em>Este contenido no es compatible con el navegador
+        </object>
+        <h3>Google</h3>
+        <object data="https://www.marca.com/" type="" width="480" height="320"></object>
+      
+        <h2>Iframe</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/jfKfPfyJRdk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <br><br><br><br>
+  </body>
+</html>

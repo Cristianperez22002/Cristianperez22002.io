@@ -1,0 +1,22 @@
+#div1{
+background-color: red;
+}
+#div2{
+background-color: yellow;
+width: 50%;
+}
+pre{
+background-color: black;
+color:greenyellow ;
+
+/* 
+
+padding-left: 50px ;
+padding-top: 10px ;
+padding-bottom: 10px ;
+
+*/
+
+padding: 20px 50px ;
+
+}
